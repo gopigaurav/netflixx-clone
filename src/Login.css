@@ -1,0 +1,53 @@
+.log__img{
+ width: 100%;
+ object-fit: contain;
+ position: absolute;
+ z-index: -1;
+ margin-top: 0;
+}
+body{
+    background-color: black;
+    
+}
+
+.login__log{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 500px;
+    height: 700px;
+    background-color: black;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right:auto;
+    opacity: 0.8;
+    color: white;
+    font-size: 20px;
+}
+
+.inp__field{
+    margin-top: 200px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inp__field1{
+    margin-top: 20px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 80px;
+}
